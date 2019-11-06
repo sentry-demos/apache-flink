@@ -160,6 +160,10 @@ public class WordCount {
 			// emit the pairs
 			for (String token : tokens) {
 				if (token.length() > 0) {
+					if (token.equals("perchance")) {
+						int example = 3 / 0;
+					}
+
 					out.collect(new Tuple2<>(token, 1));
 				}
 			}

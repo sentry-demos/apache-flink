@@ -92,6 +92,13 @@ under the License.
 			<version>1.2.17</version>
 			<scope>runtime</scope>
 		</dependency>
+
+		<!-- Sentry dependencies -->
+		<dependency>
+			<groupId>io.sentry</groupId>
+			<artifactId>sentry-log4j</artifactId>
+			<version>1.7.27</version>
+		</dependency>
 	</dependencies>
 
 	<build>
