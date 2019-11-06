@@ -21,11 +21,11 @@ under the License.
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>io.sentry.example</groupId>
-	<artifactId>apache-flink</artifactId>
+	<artifactId>wordcount</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>Flink Quickstart Job</name>
+	<name>Flink WordCount Job</name>
 	<url></url>
 
 	<properties>
@@ -144,7 +144,7 @@ under the License.
 							</filters>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>io.sentry.example.StreamingJob</mainClass>
+									<mainClass>io.sentry.example.WordCount</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
