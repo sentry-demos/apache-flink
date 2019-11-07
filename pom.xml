@@ -67,17 +67,6 @@ under the License.
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- Add connector dependencies here. They must be in the default scope (compile). -->
-
-		<!-- Example:
-
-		<dependency>
-			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-connector-kafka-0.10_${scala.binary.version}</artifactId>
-			<version>${flink.version}</version>
-		</dependency>
-		-->
-
 		<!-- Add logging framework, to produce console output when running in the IDE. -->
 		<!-- These dependencies are excluded from the application JAR by default. -->
 		<dependency>
@@ -97,7 +86,7 @@ under the License.
 		<dependency>
 			<groupId>io.sentry</groupId>
 			<artifactId>sentry-log4j</artifactId>
-			<version>1.7.27</version>
+			<version>1.7.28</version>
 		</dependency>
 	</dependencies>
 
