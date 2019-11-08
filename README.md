@@ -6,7 +6,11 @@ This demo uses `apache-flink` 1.9.0 and log4j
 
 ## First Time Setup
 
-Make sure you have Java 8 and Apache Maven 3.6 and above installed.
+Make sure you have Java 8 installed.
+
+It is recommended to use [jenv](https://www.jenv.be/) to manage your Java environment.
+
+Install Apache Maven.
 
 ```bash
 brew install maven
