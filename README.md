@@ -19,7 +19,7 @@ brew install maven
 Install [Apache Flink](https://flink.apache.org/downloads.html). An easy way to do this is through homebrew
 
 ```bash
-brew install flink
+brew install apache-flink
 ```
 
 Add your SENTRY_DSN to the `sentry-properties` file
